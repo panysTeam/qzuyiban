@@ -53,6 +53,7 @@ public class SchedulerListener implements ApplicationRunner{// ApplicationListen
 	public void run(ApplicationArguments arg0) throws Exception {
 //		Thread.sleep(5000);//睡眠五秒
 //		schedule();
+		System.out.println("没有开启定时任务");
 	}
 
 	
