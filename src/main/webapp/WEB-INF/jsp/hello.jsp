@@ -13,7 +13,8 @@
 	}
 </script>
 <h1>你好！spring boot</h1>
-<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask" onclick="findUser()">查询用户信息</a>
-<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask2" onclick="findUser()">查询用户信息2</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask">查询用户信息</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask2">查询用户信息2</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/findUser">查询用户信息3</a>
 </body>
 </html>

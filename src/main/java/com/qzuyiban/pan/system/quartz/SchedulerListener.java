@@ -1,4 +1,4 @@
-package com.qzuyiban.pan.system.config;
+package com.qzuyiban.pan.system.quartz;
 
 
 import org.quartz.SchedulerException;

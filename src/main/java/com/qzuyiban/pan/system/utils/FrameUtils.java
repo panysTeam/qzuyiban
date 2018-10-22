@@ -43,14 +43,15 @@ public class FrameUtils {
 				
 				
 				response.sendRedirect("http://127.0.0.1:8080/qzuyiban/hello");
+				return;
 			}
 			else
 			{
 				response.sendRedirect("http://f.yiban.cn/xiaopanyihao");
 				return;
 			}
-			String source = util.adaptive();
-			System.out.println(source);
+//			String source = util.adaptive();
+//			System.out.println(source);
 		}
 		catch (Exception ex)
 		{
