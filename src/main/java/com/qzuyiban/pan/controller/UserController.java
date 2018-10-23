@@ -20,10 +20,4 @@ public class UserController {
 		return resultUser;
 	}
 	
-	@RequestMapping("/findUserS")
-	public Map<String,Object> findUserS(){
-		Map<String,Object> resultUser=userService.find();
-		return resultUser;
-	}
-	
 }
