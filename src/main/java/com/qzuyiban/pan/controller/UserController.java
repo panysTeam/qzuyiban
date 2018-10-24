@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.qzuyiban.pan.service.UserService;
+import com.qzuyiban.pan.system.bean.MailBean;
+import com.qzuyiban.pan.system.utils.MailUtil;
 
 @RestController
 public class UserController {
@@ -20,4 +22,17 @@ public class UserController {
 		return resultUser;
 	}
 	
+	@RequestMapping("/testMail")
+	public void testMail(){
+		MailUtil mailUtil=new MailUtil();
+		MailBean mailBean=new MailBean("2898627607@qq.com","testMail","testMail");
+//		mailUtil.sendTemplateMail(mailBean);
+//		mailUtil.sendHTMLMail(mailBean);
+		mailUtil.sendSimpleMail(mailBean);
+	}
+	
+	public static void main(String[] args) {
+		UserController uc=new UserController();
+		uc.testMail();
+	}
 }

@@ -13,8 +13,9 @@
 	}
 </script>
 <h1>你好！spring boot</h1>
-<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask">查询用户信息</a>
-<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/multitask2">查询用户信息2</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/1/send">查询kafka</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/default/send">查询kafkadefault</a>
+<a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban//testMail">测试邮件</a>
 <a id="user" name="user" href="http://127.0.0.1:8080/qzuyiban/findUser">查询用户信息3</a>
 </body>
 </html>
